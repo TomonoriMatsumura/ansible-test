@@ -1,4 +1,5 @@
 - name: Dockerイメージを作成する 
+  become: yes
   docker_image:
     name: centos7/ansible
     tag: test
