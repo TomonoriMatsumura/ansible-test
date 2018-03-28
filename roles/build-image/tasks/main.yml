@@ -1,0 +1,6 @@
+- name: Dockerイメージを作成する 
+  docker_image:
+    name: centos7/ansible
+    tag: test
+    state: present
+    path: .
