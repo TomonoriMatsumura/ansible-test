@@ -1,7 +1,3 @@
 - name: Dockerイメージを作成する 
   become: yes
-  docker_image:
-    name: centos7/ansible
-    tag: test
-    state: present
-    path: /tmp
+  shell: docker build -t centos:ansible /tmp
