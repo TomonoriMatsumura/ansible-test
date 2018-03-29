@@ -4,4 +4,4 @@
     name: centos7/ansible
     tag: test
     state: present
-    path: /tmp/Dockerfile
+    path: /tmp
