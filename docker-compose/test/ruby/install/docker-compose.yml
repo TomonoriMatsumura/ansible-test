@@ -1,0 +1,5 @@
+centos7-ansible:
+  image: centos7:ansible
+  container_name: 'centos7-ansible'
+  environment:
+    - "TZ=Asia/Tokyo"

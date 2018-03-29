@@ -1,0 +1,3 @@
+- name: Dockerイメージを作成する 
+  become: yes
+  shell: "docker-compose up -d {{ ansible_usr_dir }}/ansible-test/"

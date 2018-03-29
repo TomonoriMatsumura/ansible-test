@@ -1,0 +1,4 @@
+- name: Playbookを実行する 
+  become: yes
+  shell:
+    docker exec centos7/ansible /bin/bash -c ""  
